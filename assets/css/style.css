@@ -1,0 +1,27 @@
+/*
+селектор {
+   свойство1: значение1;
+   свойство2: значение2;
+   .....
+}
+*/
+
+p{
+    font-size: 14px; /*размер шрифта в px*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600; /*толщина normal 400, bold 600/800*/
+    font-style: italic; /*наклон*/
+    font-stretch: wider; /*растяжимость*/
+/*
+color: blue; стандартное значение
+color: #0000ff; 16-код модель красный+зеленый+синий
+color: rgb(246, 250, 14) модель красный+зеленый+синий
+color: rgba(246, 250, 14) модель красный+зеленый+синий+прозрачность
+*/
+color:blue;
+background-color: yellow; /*фон*/
+text-transform: uppercase;/*регистр*/
+letter-spacing: 5px;/*расстояние между буквами*/
+word-spacing: 10px; /*расстояние между словами*/
+
+}
