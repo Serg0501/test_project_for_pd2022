@@ -41,3 +41,7 @@ font-weight: bold;
 .text_for_uppercase{
     text-transform: uppercase;
 }
+.img_class{
+    height: 200px;
+    width: 350px;
+}
