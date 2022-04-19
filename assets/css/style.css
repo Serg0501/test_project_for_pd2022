@@ -30,7 +30,7 @@ background-color: yellow; /*фон*/
 
 /*атрибут class является глобальным и можно задать для любого элемента
 созданный класс стилей можно исп для любого кол-ва эл-тов*/
-.mark1{
+/*.mark1{
 background-color: yellow;    
 font-weight: bold;
 }
@@ -44,4 +44,40 @@ font-weight: bold;
 .img_class{
     height: 200px;
     width: 350px;
+}*/
+
+.cardContainer{
+border: 2px solid blue;
+border-radius: 10px;
+width: 400px;
+height: 600px;
+/*
+border-width: 2px;
+border-color: blue;
+border-style: solid;
+*/
+}
+
+.photoContainer{
+    background-image: url('https://static7.depositphotos.com/1008939/726/i/600/depositphotos_7264018-stock-photo-programmer.jpg') ;
+border: 2px solid grey;
+border-radius: 100px;
+width: 200px;
+height: 200px;
+background-size: cover;/*растяжимость и заполнение изображения в контейнере, contain заполнит контейнер с большей стороны*/
+background-repeat: no-repeat;/*не дублировать изображение*/
+}
+
+.infoContainer{
+    border: 1px solid grey;
+}
+.userName{
+font-weight: bold;
+font-size: 30px;
+color: rgba(0,0,0,1);
+}
+
+.userJob{
+    font-size: 25px;
+    color: rgba(0,0,0,0.4);
 }
