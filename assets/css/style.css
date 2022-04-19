@@ -6,22 +6,38 @@
 }
 */
 
-p{
-    font-size: 14px; /*размер шрифта в px*/
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 600; /*толщина normal 400, bold 600/800*/
-    font-style: italic; /*наклон*/
-    font-stretch: wider; /*растяжимость*/
+   /* font-size: 14px; /*размер шрифта в px*/
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    /*font-weight: 600; /*толщина normal 400, bold 600/800*/
+    /*font-style: italic; /*наклон*/
+    /*font-stretch: wider; /*растяжимость*/
+
 /*
 color: blue; стандартное значение
 color: #0000ff; 16-код модель красный+зеленый+синий
 color: rgb(246, 250, 14) модель красный+зеленый+синий
 color: rgba(246, 250, 14) модель красный+зеленый+синий+прозрачность
 */
+/*
 color:blue;
 background-color: yellow; /*фон*/
-text-transform: uppercase;/*регистр*/
-letter-spacing: 5px;/*расстояние между буквами*/
-word-spacing: 10px; /*расстояние между словами*/
+/*text-transform: uppercase;/*регистр*/
+/*letter-spacing: 5px;/*расстояние между буквами*/
+/*word-spacing: 10px; /*расстояние между словами*/
+/*opacity: 0,5; /*прозрачность(0-не видно)*/
 
+
+
+/*атрибут class является глобальным и можно задать для любого элемента
+созданный класс стилей можно исп для любого кол-ва эл-тов*/
+.mark1{
+background-color: yellow;    
+font-weight: bold;
+}
+.big{
+    font-size: 18px;
+    color: navy;
+}
+.text_for_uppercase{
+    text-transform: uppercase;
 }
