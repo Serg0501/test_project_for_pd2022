@@ -51,6 +51,7 @@ border: 2px solid blue;
 border-radius: 10px;
 width: 400px;
 height: 600px;
+box-sizing: border-box;
 /*
 border-width: 2px;
 border-color: blue;
@@ -60,13 +61,17 @@ border-style: solid;
 
 .photoContainer{
     background-image: url('https://static7.depositphotos.com/1008939/726/i/600/depositphotos_7264018-stock-photo-programmer.jpg') ;
-border: 2px solid grey;
+margin:10px 100px 10px 100px;/*внешние отступы*/
+/*margin: 40px 10px 15px 10px; задать отступ со всех сторон(сверху по часовой стрелке)*/
+    border: 2px solid grey;
 border-radius: 100px;
 width: 200px;
 height: 200px;
 background-size: cover;/*растяжимость и заполнение изображения в контейнере, contain заполнит контейнер с большей стороны*/
 background-repeat: no-repeat;/*не дублировать изображение*/
+box-sizing: border-box; /*пересчет отступов и полей( сторого по указанному*/
 }
+
 
 .infoContainer{
     border: 1px solid grey;
@@ -75,9 +80,25 @@ background-repeat: no-repeat;/*не дублировать изображени�
 font-weight: bold;
 font-size: 30px;
 color: rgba(0,0,0,1);
+/*размещение текста*/
+text-align: center;
 }
 
 .userJob{
     font-size: 25px;
     color: rgba(0,0,0,0.4);
+    text-align: center;
+}
+.buttonStyle{
+    border: 1px solid black;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    color: black;
+    background-color: blue;
+    text-align: center;
+}
+li{
+    border: 1px solid red;
+    font-size: 20px;
 }
