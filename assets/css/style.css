@@ -1,104 +1,45 @@
-/*
-селектор {
-   свойство1: значение1;
-   свойство2: значение2;
-   .....
+.container{
+    width: auto;
+    height: auto;
 }
-*/
 
-   /* font-size: 14px; /*размер шрифта в px*/
-    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
-    /*font-weight: 600; /*толщина normal 400, bold 600/800*/
-    /*font-style: italic; /*наклон*/
-    /*font-stretch: wider; /*растяжимость*/
-
-/*
-color: blue; стандартное значение
-color: #0000ff; 16-код модель красный+зеленый+синий
-color: rgb(246, 250, 14) модель красный+зеленый+синий
-color: rgba(246, 250, 14) модель красный+зеленый+синий+прозрачность
-*/
-/*
-color:blue;
-background-color: yellow; /*фон*/
-/*text-transform: uppercase;/*регистр*/
-/*letter-spacing: 5px;/*расстояние между буквами*/
-/*word-spacing: 10px; /*расстояние между словами*/
-/*opacity: 0,5; /*прозрачность(0-не видно)*/
-
-
-
-/*атрибут class является глобальным и можно задать для любого элемента
-созданный класс стилей можно исп для любого кол-ва эл-тов*/
-/*.mark1{
-background-color: yellow;    
-font-weight: bold;
-}
-.big{
-    font-size: 18px;
-    color: navy;
-}
-.text_for_uppercase{
-    text-transform: uppercase;
-}
 .img_class{
-    height: 200px;
-    width: 350px;
-}*/
-
-.cardContainer{
-border: 2px solid blue;
-border-radius: 10px;
-width: 400px;
-height: 600px;
-box-sizing: border-box;
-/*
-border-width: 2px;
-border-color: blue;
-border-style: solid;
-*/
+    background-image: 
+   url('https://img.wallpapic.com/i4071-017-11/medium/nacionalnyj-morskoj-park-bunaken-indoneziya-ryby-plyazh-oboi.jpg');
+border: 1px solid blue;
+width: auto;
+height: 460px;
+box-sizing:border-box;
+background-size: cover;
+background-repeat: no-repeat;
 }
-
-.photoContainer{
-    background-image: url('https://static7.depositphotos.com/1008939/726/i/600/depositphotos_7264018-stock-photo-programmer.jpg') ;
-margin:10px 100px 10px 100px;/*внешние отступы*/
-/*margin: 40px 10px 15px 10px; задать отступ со всех сторон(сверху по часовой стрелке)*/
-    border: 2px solid grey;
-border-radius: 100px;
-width: 200px;
-height: 200px;
-background-size: cover;/*растяжимость и заполнение изображения в контейнере, contain заполнит контейнер с большей стороны*/
-background-repeat: no-repeat;/*не дублировать изображение*/
-box-sizing: border-box; /*пересчет отступов и полей( сторого по указанному*/
+.header{
+    font-weight: bolder;
+    color: ghostwhite;
+    text-align:center;
+    padding-top: 140px;
 }
-
-
-.infoContainer{
-    border: 1px solid grey;
-}
-.userName{
-font-weight: bold;
-font-size: 30px;
-color: rgba(0,0,0,1);
-/*размещение текста*/
-text-align: center;
-}
-
-.userJob{
-    font-size: 25px;
-    color: rgba(0,0,0,0.4);
+.img_text{
+    color: ghostwhite;
     text-align: center;
+    padding-top: auto;
 }
-.buttonStyle{
-    border: 1px solid black;
-    width: 120px;
+.text_cont1{
+    width:auto;
+    height: 80px;
+    background: blue;
+    margin: 0%;
+    padding: 0%;
+}
+
+.text1{
+    text-align: center; 
+}
+.text_cont2{
+    width: auto;
     height: 50px;
-    border-radius: 5px;
-    color: black;
-    background-color: blue;
-    text-align: center;
+    background: blueviolet;
 }
-li{
-    border: 1px solid red;
-    font-size: 20px;
+.text2{
+    text-align: center; 
 }
