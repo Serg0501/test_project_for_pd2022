@@ -1,6 +1,7 @@
 .container{
     width: auto;
     height: auto;
+    border: 1px solid white;
 }
 
 .img_class{
@@ -9,37 +10,47 @@
 border: 1px solid blue;
 width: auto;
 height: 460px;
-box-sizing:border-box;
-background-size: cover;
-background-repeat: no-repeat;
+background-size: contain;
 }
 .header{
     font-weight: bolder;
-    color: ghostwhite;
+    color: white;
     text-align:center;
     padding-top: 140px;
 }
 .img_text{
-    color: ghostwhite;
+    color: white;
     text-align: center;
     padding-top: auto;
 }
-.text_cont1{
+.buttonStyle{
+    border: 1px solid white;
+    width: 60px;
+    height: 20px;
+    border-radius: 15px;
+    color: white;
+    margin-left: 640px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.textCont1{
+    border: 1px solid blue;
     width:auto;
-    height: 80px;
+    height: auto;
     background: blue;
-    margin: 0%;
-    padding: 0%;
+}
+.text1{
+    color: white; 
+    text-align: center;
+}
+.textCont2{
+    border: 1px solid white;
+    width: auto;
+    height: auto;
 }
 
-.text1{
-    text-align: center; 
-}
-.text_cont2{
-    width: auto;
-    height: 50px;
-    background: blueviolet;
-}
 .text2{
-    text-align: center; 
+    color: blue;
+    text-align: center;
 }
