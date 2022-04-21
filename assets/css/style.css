@@ -1,26 +1,33 @@
-p.blueText{
-    color: aqua;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-.bigText{
-    font-size: 22px;
-}
+/*vw viewport все что видит пользователь(body и полоса прокрутки)
+body то что видно экране, без полосы прокрутки
+weight ширина в %
+height высота в vh
+100% расширение по разрешению экрана*/
 
-.blueText.bigText{
-    background-color: yellow;
-    border: 2px solid black;
-    border-top-color: blue;
-    margin-top: 10px;
-    padding-top: 5px;
-    box-sizing: border-box;/*пересчет значений за счет контента*/
-    width: 500px;
-    height: 30px;
-}
 
 .colorDiv{
+    display: inline-block; /*блоки расп в строку*/
     background-color: yellow;
-    height: 50px;
-    max-width: 500px;/*максимальная, для адаптации к другим устройствам*/
     width: 200px;
+    height: 200px;
     border: 1px solid blue;
+   /* margin: auto;*/   /*сдвиг блока по центру боди*/
+}
+
+/*h1{
+    text-align: center;  /*сдвиг по центру текста*/
+
+
+/*pic это строчный эл-т*/
+
+.pic{
+    width: 300px;  /*сдвиг по центру картинки*/
+    height: 300px;
+    margin: auto;
+    display: block;  /*меняем строчный эл-т на блочный*/
 }
