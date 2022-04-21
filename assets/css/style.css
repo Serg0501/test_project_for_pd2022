@@ -1,12 +1,13 @@
 .nav{
-    list-style-type: none;
+    list-style-type: none;/*убрать"-" из списка*/
     
 }
 
-li{
+ul.nav>li{
     font-size: 20px;
     border: 2px solid blue;
     width: 200px;
     height: 30px;
-    display: inline-block;
+    display: inline-block;/*блоки(список выделенный границей) в одну строку*/
 }
+
