@@ -1,56 +1,26 @@
-.container{
-    width: auto;
-    height: auto;
-    border: 1px solid white;
+p.blueText{
+    color: aqua;
 }
 
-.img_class{
-    background-image: 
-   url('https://img.wallpapic.com/i4071-017-11/medium/nacionalnyj-morskoj-park-bunaken-indoneziya-ryby-plyazh-oboi.jpg');
-border: 1px solid blue;
-width: auto;
-height: 460px;
-background-size: contain;
+.bigText{
+    font-size: 22px;
 }
-.header{
-    font-weight: bolder;
-    color: white;
-    text-align:center;
-    padding-top: 140px;
-}
-.img_text{
-    color: white;
-    text-align: center;
-    padding-top: auto;
-}
-.buttonStyle{
-    border: 1px solid white;
-    width: 60px;
-    height: 20px;
-    border-radius: 15px;
-    color: white;
-    margin-left: 640px;
-    box-sizing: border-box;
-    text-align: center;
 
+.blueText.bigText{
+    background-color: yellow;
+    border: 2px solid black;
+    border-top-color: blue;
+    margin-top: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;/*пересчет значений за счет контента*/
+    width: 500px;
+    height: 30px;
 }
-.textCont1{
+
+.colorDiv{
+    background-color: yellow;
+    height: 50px;
+    max-width: 500px;/*максимальная, для адаптации к другим устройствам*/
+    width: 200px;
     border: 1px solid blue;
-    width:auto;
-    height: auto;
-    background: blue;
-}
-.text1{
-    color: white; 
-    text-align: center;
-}
-.textCont2{
-    border: 1px solid white;
-    width: auto;
-    height: auto;
-}
-
-.text2{
-    color: blue;
-    text-align: center;
 }
