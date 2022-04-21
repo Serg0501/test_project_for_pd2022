@@ -1,13 +1,23 @@
-.nav{
+/*.nav{
     list-style-type: none;/*убрать"-" из списка*/
     
-}
 
+/*
 ul.nav>li{
     font-size: 20px;
     border: 2px solid blue;
     width: 200px;
     height: 30px;
     display: inline-block;/*блоки(список выделенный границей) в одну строку*/
+
+p{
+    color: blueviolet;
 }
 
+div>p{
+    color: aqua;
+}
+
+.class3>p{
+    color: brown;
+}
