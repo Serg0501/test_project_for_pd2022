@@ -1,33 +1,12 @@
-*{
-    margin: 0px;
-    padding: 0px;
+.nav{
+    list-style-type: none;
+    
 }
 
-/*vw viewport все что видит пользователь(body и полоса прокрутки)
-body то что видно экране, без полосы прокрутки
-weight ширина в %
-height высота в vh
-100% расширение по разрешению экрана*/
-
-
-.colorDiv{
-    display: inline-block; /*блоки расп в строку*/
-    background-color: yellow;
+li{
+    font-size: 20px;
+    border: 2px solid blue;
     width: 200px;
-    height: 200px;
-    border: 1px solid blue;
-   /* margin: auto;*/   /*сдвиг блока по центру боди*/
-}
-
-/*h1{
-    text-align: center;  /*сдвиг по центру текста*/
-
-
-/*pic это строчный эл-т*/
-
-.pic{
-    width: 300px;  /*сдвиг по центру картинки*/
-    height: 300px;
-    margin: auto;
-    display: block;  /*меняем строчный эл-т на блочный*/
+    height: 30px;
+    display: inline-block;
 }
