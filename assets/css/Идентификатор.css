@@ -1,2 +1,23 @@
+.cardCont{
+    width: 800px;
+    height: 800px;
+}
 
-color: orange;
+.cont1{
+    width: 800px;
+    height: 400px;
+    background-color: red;
+}
+
+.cont2{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+}
+
+.img{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: green;
+}

@@ -1,26 +1,87 @@
-/*.nav{
-    list-style-type: none;/*убрать"-" из списка*/
-    
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+background-color: black;
+}
 
-/*
-ul.nav>li{
-    font-size: 20px;
-    border: 2px solid blue;
-    width: 200px;
+.userCardConteiner{
+    width: 400px;
+    height: 500px;
+    border: 2px solid white;
+    margin: auto;
+    position: relative; top: 70px;
+}
+
+.colorCardConteiner{
+    width: auto;
+    height: 40%;
+    background-color: blue;
+}
+
+.userInfoConteiner{
+    width: 100%;
+    height: 60%;
+    background-color: yellow;
+    text-align: center;
+}
+
+.userPhoto{
+    background-image: 
+    url('https://www.meme-arsenal.com/memes/68cc51bb5fe1bdb96b657ba3694d05ac.jpg');
+    box-sizing:border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background-color: white;
+    margin: auto;
+    position: relative ; top: -80px;
+}
+
+.infoConteiner{
+    width: auto;
+    height: auto;
+    margin: auto;
+    position: relative; bottom: 70px;
+    
+}
+
+.userName{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.userJob{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+}
+
+.buttonFollow{
+    width: 100px;
     height: 30px;
-    display: inline-block;/*блоки(список выделенный границей) в одну строку*/
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
+    
+}
 
 p{
-    color: blueviolet;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2px;
 }
 
-div.class3 p{
-    color: green;
-}
-/*
-.class3>p{/*уточнение*/
-
-.class3{
-    border: 2px solid black;
-    background-color: darkgrey;
+.followers{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
 }
