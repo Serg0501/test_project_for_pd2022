@@ -1,0 +1,34 @@
+/*.nav{
+    list-style-type: none;/*убрать"-" из списка*/
+    
+
+/*
+ul.nav>li{
+    font-size: 20px;
+    border: 2px solid blue;
+    width: 200px;
+    height: 30px;
+    display: inline-block;/*блоки(список выделенный границей) в одну строку*/
+
+p{
+    color: blueviolet;
+}
+/*правило применитья для всех параграфов в div с 
+классом class3 на любом уровне вложенности!
+с субклассом subClass3!*/
+div.class3 p{
+    color: green;
+}
+/*правило применитья для всех параграфов в div с 
+классом class3 на 1м уровне вложенности! */
+div.class3<p{
+    color: green;
+}
+
+/*
+.class3>p{/*уточнение*/
+
+.class3{
+    border: 2px solid black;
+    background-color: darkgrey;
+}

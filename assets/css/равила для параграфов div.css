@@ -1,0 +1,9 @@
+.headerStyle{
+    font-size: 20px;
+    color: blue;
+    text-transform: uppercase;
+}
+
+#idheader2{
+    border: 2px solid black;
+}
