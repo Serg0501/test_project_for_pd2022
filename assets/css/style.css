@@ -14,10 +14,13 @@ p{
     color: blueviolet;
 }
 
-div>p{
-    color: aqua;
+div.class3 p{
+    color: green;
 }
+/*
+.class3>p{/*уточнение*/
 
-.class3>p{
-    color: brown;
+.class3{
+    border: 2px solid black;
+    background-color: darkgrey;
 }
